@@ -35,6 +35,21 @@ Use the `mcp__plugin_context7_context7__resolve-library-id` tool to find the lib
 - **`superpowers:test-driven-development`** — use this for every feature or fix. Write the failing test first.
 - **`superpowers:systematic-debugging`** — use this when you hit a bug or unexpected behavior. Do not guess at fixes.
 
-## When done
+## When done coding
 
-When implementation is complete, run `/review` to check your code against the proposal and design before shipping.
+Before handing off to `/review`, verify the implementation actually works:
+
+1. **Run the test suite** — all tests must pass
+   ```bash
+   npm test
+   ```
+   If any test fails: fix it before proceeding. Do not move to review with a red suite.
+
+2. **Run and verify** — use the `verify` skill to start the app and confirm the golden path works end-to-end. Check:
+   - The server starts without errors
+   - The implemented endpoints respond correctly
+   - Edge cases from `design.md` behave as specified
+
+3. **If anything fails** — use `superpowers:systematic-debugging` to find the root cause. Do not patch over it.
+
+4. **When green** — commit, then tell the user: "Implementation verified and passing. Run `/review`."
