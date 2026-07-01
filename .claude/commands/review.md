@@ -8,7 +8,7 @@ You are in the **REVIEW** stage of the pipeline. Produce a review report in chat
 
 ### 1. Did we build what we proposed?
 Check the implementation against `.ai/proposal.md`:
-- Are all requirements from `TASK.md` addressed?
+- Are all requirements from ``.ai/spec.md`` addressed?
 - Does the implementation match the chosen approach in `proposal.md`?
 - Is anything in scope missing?
 

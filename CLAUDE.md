@@ -7,8 +7,12 @@ You are working in a professional AI-assisted development kit. Follow these rule
 Every task follows this pipeline — no exceptions:
 
 ```
-/shape → /propose → /design → /implement → /review → /ship
+/analyze → [ Linear tasks created ] → per task: /shape → /propose → /design → /implement → /review → /ship
 ```
+
+**`/analyze` runs once** — reads all files in `context/`, writes `.ai/spec.md`, creates Linear issues on approval.
+
+**All other stages repeat per task** — pick a Linear issue, run the full loop, ship it, move to the next.
 
 Use the slash commands in `.claude/commands/` to move through each stage.
 
@@ -16,7 +20,7 @@ Use the slash commands in `.claude/commands/` to move through each stage.
 
 1. **Plan before code.** Never write implementation code without an approved `.ai/design.md`. If the user asks you to code before design is approved, refuse and explain why, then offer to run `/design`.
 
-2. **TASK.md is the source of truth.** Read it at the start of every session. Never invent or assume requirements not stated in `TASK.md`. If something is ambiguous, surface it during `/shape`.
+2. **`context/` and `.ai/spec.md` are the source of truth.** Read `spec.md` at the start of every session. Never invent or assume requirements not in the brief. If something is ambiguous, surface it during `/analyze` or `/shape`.
 
 3. **One stage at a time.** Do not jump ahead. Each stage has a hard gate — wait for the user to explicitly approve before proceeding to the next stage.
 

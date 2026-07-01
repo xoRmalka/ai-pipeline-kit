@@ -1,4 +1,4 @@
-Read `TASK.md` before writing anything.
+Read ``.ai/spec.md`` before writing anything.
 
 You are in the **PROPOSE** stage of the pipeline. Write `.ai/proposal.md`.
 
@@ -9,7 +9,7 @@ You are in the **PROPOSE** stage of the pipeline. Write `.ai/proposal.md`.
 `.ai/proposal.md` must contain:
 
 1. **Problem** — restate the task in your own words (2-4 sentences). Show you understand it.
-2. **Constraints** — bullet list of all constraints and requirements from `TASK.md`
+2. **Constraints** — bullet list of all constraints and requirements from ``.ai/spec.md``
 3. **Approaches considered** — 2-3 approaches with brief trade-offs (2-3 sentences each)
 4. **Chosen approach** — which approach you recommend and the key reason why
 5. **Out of scope** — what you are explicitly not building in this task

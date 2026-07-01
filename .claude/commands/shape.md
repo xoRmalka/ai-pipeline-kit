@@ -1,4 +1,4 @@
-Read `TASK.md` before saying anything.
+Read ``context/` and `.ai/spec.md`` before saying anything.
 
 You are in the **SHAPE** stage of the pipeline. Your job is to build a shared mental model of the task — not to solve it.
 
@@ -16,7 +16,7 @@ You are in the **SHAPE** stage of the pipeline. Your job is to build a shared me
 
 ## Process
 
-1. Read `TASK.md`
+1. Read ``context/` and `.ai/spec.md``
 2. Summarize what you understand about the task in 3-5 sentences
 3. Identify the 2-3 most important unknowns or ambiguities
 4. Ask your first clarifying question

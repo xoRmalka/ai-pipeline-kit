@@ -1,4 +1,4 @@
-Read `TASK.md` and `.ai/proposal.md` before writing anything. If `proposal.md` does not exist, stop and tell the user: "proposal.md not found. Run `/propose` and get approval first."
+Read ``.ai/spec.md`` and `.ai/proposal.md` before writing anything. If `proposal.md` does not exist, stop and tell the user: "proposal.md not found. Run `/propose` and get approval first."
 
 You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/openapi.yaml`, and ADRs in `docs/adr/`.
 
@@ -21,7 +21,7 @@ You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/op
 
 ## Process
 
-1. Read `TASK.md` and `.ai/proposal.md`
+1. Read ``.ai/spec.md`` and `.ai/proposal.md`
 2. Write `.ai/design.md` with all five sections above
 3. Present the design to the user in chat — highlight the most important decisions
 4. Ask: "Does this design look right? Approve to proceed to implementation."

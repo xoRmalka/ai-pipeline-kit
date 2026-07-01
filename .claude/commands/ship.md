@@ -16,9 +16,9 @@ Run each check and report pass/fail:
    test -s .ai/design.md && echo "PASS" || echo "FAIL: .ai/design.md missing"
    ```
 
-3. **TASK.md is filled in**
+3. **spec.md exists and is filled in**
    ```bash
-   test -s TASK.md && echo "PASS" || echo "FAIL: TASK.md is empty"
+   test -s .ai/spec.md && echo "PASS" || echo "FAIL: .ai/spec.md missing — run /analyze first"
    ```
 
 4. **README explains how to run the project**
