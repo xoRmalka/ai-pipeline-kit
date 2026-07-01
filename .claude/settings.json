@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'if [ ! -f \".ai/design.md\" ] || [ ! -s \".ai/design.md\" ]; then echo \"\\n⚠️  WARNING: .ai/design.md not found or empty.\\nRun /design and get approval before writing implementation code.\\n\"; fi'"
+          }
+        ]
+      }
+    ]
+  }
+}

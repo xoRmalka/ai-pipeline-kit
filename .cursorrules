@@ -1,0 +1,21 @@
+# AI Dev Kit — Cursor Rules
+
+## Pipeline
+This project uses: /shape → /propose → /design → /implement → /review → /ship
+
+Never write implementation code without .ai/design.md existing and approved.
+
+## Rules
+
+- Read TASK.md before starting any work. It contains the task brief and constraints.
+- .ai/proposal.md is Gate 1 (problem + approach). Do not contradict it.
+- .ai/design.md is Gate 2 (technical design). Follow it exactly.
+- If .ai/design.md does not exist, do not write code. Tell the user to run /design first.
+- Interview mode: code must be readable and explainable out loud. No over-engineering.
+- Surface conflicts with the design rather than silently deviating.
+- Do not auto-complete past a pipeline gate without user approval.
+
+## Artifacts
+- TASK.md — task brief
+- .ai/proposal.md — Gate 1
+- .ai/design.md — Gate 2
