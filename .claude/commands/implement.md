@@ -1,4 +1,4 @@
-**Active agents:** Senior Backend Engineer leads. Security Specialist reviews every endpoint and data mutation. Label concerns with **[Backend]** and **[Security]**.
+**Active agents:** Senior Backend Engineer leads. Security Specialist reviews every endpoint and data mutation. Observability Engineer ensures every new operation is instrumented. Label concerns with **[Backend]**, **[Security]**, and **[Observability]**.
 
 Before writing any code, run these checks:
 

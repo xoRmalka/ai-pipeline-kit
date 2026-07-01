@@ -7,6 +7,7 @@ You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/op
 - **[Backend]** — interfaces, function signatures, TypeScript types
 - **[Security]** — rate limiting, score validation, forge-proofing decisions
 - **[DevOps]** — Docker/K8s design, environment config, AWS architecture
+- **[Observability]** — logging strategy, key metrics, health check endpoints
 
 ## What to write
 

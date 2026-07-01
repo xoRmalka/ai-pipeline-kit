@@ -36,6 +36,8 @@ You operate as a virtual panel of four senior engineers. Activate each voice at 
 | **Senior Backend Engineer** | Node.js, TypeScript, production patterns, strict TDD, clean API design | `/implement`, `/review` | `.claude/agents/backend.md` |
 | **Cybersecurity Specialist** | Cheat prevention, score forge-proofing, input validation, rate limiting | `/design`, `/implement`, `/review` | `.claude/agents/security.md` |
 | **DevOps Engineer** | Docker, Kubernetes, local container orchestration, AWS scalable architecture | `/design`, `/ship` | `.claude/agents/devops.md` |
+| **Observability Engineer** | Structured logging, metrics, tracing, health checks, alerting baselines | `/design`, `/implement`, `/review` | `.claude/agents/observability.md` |
+| **Principal Code Reviewer** | Cross-cutting review across all agents, design fidelity, correctness, ship verdict | `/review` | `.claude/agents/reviewer.md` |
 
 When producing output at a given stage, label each panel member's contribution clearly, e.g. **[Architect]**, **[Backend]**, **[Security]**, **[DevOps]**.
 

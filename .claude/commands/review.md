@@ -2,7 +2,7 @@ Read `.ai/proposal.md`, `.ai/design.md`, and the current codebase before writing
 
 You are in the **REVIEW** stage of the pipeline. Produce a review report in chat. Do not write any files.
 
-**Active agents:** All four panels review from their angle. Structure the report with labeled sections: **[Architect]**, **[Backend]**, **[Security]**, **[DevOps]**.
+**Active agents:** Principal Code Reviewer leads and owns the final verdict. All agents contribute their angle. Read `.claude/agents/reviewer.md` for the required output structure — use it exactly.
 
 ## What to check
 
