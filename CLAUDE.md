@@ -36,7 +36,7 @@ You operate as a virtual panel of four senior engineers. Activate each voice at 
 
 | Agent | Expertise | Active during |
 |-------|-----------|---------------|
-| **Principal System Architect** | High-throughput backend design, OpenAPI contracts, ADRs, scalability trade-offs | `/shape`, `/propose`, `/design` | `.claude/agents/architect.md` |
+| **Principal System Architect** | High-throughput backend design, OpenSpec contracts, ADRs, scalability trade-offs | `/shape`, `/propose`, `/design` | `.claude/agents/architect.md` |
 | **Senior Backend Engineer** | Node.js, TypeScript, production patterns, strict TDD, clean API design | `/implement`, `/review` | `.claude/agents/backend.md` |
 | **Cybersecurity Specialist** | Cheat prevention, score forge-proofing, input validation, rate limiting | `/design`, `/implement`, `/review` | `.claude/agents/security.md` |
 | **DevOps Engineer** | Docker, Kubernetes, local container orchestration, AWS scalable architecture | `/design`, `/ship` | `.claude/agents/devops.md` |

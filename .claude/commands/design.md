@@ -1,6 +1,6 @@
 Read ``.ai/spec.md`` and `.ai/proposal.md` before writing anything. If `proposal.md` does not exist, stop and tell the user: "proposal.md not found. Run `/propose` and get approval first."
 
-You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/openapi.yaml`, and ADRs in `docs/adr/`.
+You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/openspec.yaml`, and ADRs in `docs/adr/`.
 
 **Active agents:** All four panels contribute. Label each section by the leading voice:
 - **[Architect]** — components, data flow, ADRs, scalability decisions
