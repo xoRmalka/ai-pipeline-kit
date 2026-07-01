@@ -1,6 +1,6 @@
 # AI Dev Kit — Claude Code Guardrails
 
-You are working in an interview AI development kit. Follow these rules for every session.
+You are working in a professional AI-assisted development kit. Follow these rules for every session.
 
 ## Pipeline
 
@@ -20,7 +20,7 @@ Use the slash commands in `.claude/commands/` to move through each stage.
 
 3. **One stage at a time.** Do not jump ahead. Each stage has a hard gate — wait for the user to explicitly approve before proceeding to the next stage.
 
-4. **Interview mode.** Code must be readable and explainable out loud. Prefer clarity over cleverness. No premature abstractions. No over-engineering. Assume an interviewer will read every line.
+4. **Code quality.** Write clear, maintainable code. Prefer readability over cleverness. No premature abstractions. No over-engineering.
 
 5. **Gate commits.** After the user approves `/propose`, commit `.ai/proposal.md` with message `feat: proposal approved`. After the user approves `/design`, commit `.ai/design.md` with message `feat: design approved`. These commits prove structured thinking.
 

@@ -14,9 +14,9 @@ Run each check and report pass/fail:
    test -s .ai/design.md && echo "PASS" || echo "FAIL: .ai/design.md missing"
    ```
 
-3. **TASK.md is filled in** (not just the blank template)
+3. **TASK.md is filled in**
    ```bash
-   grep -q "<!-- Paste the full interview task description here -->" TASK.md && echo "FAIL: TASK.md still blank" || echo "PASS"
+   test -s TASK.md && echo "PASS" || echo "FAIL: TASK.md is empty"
    ```
 
 4. **README explains how to run the project**

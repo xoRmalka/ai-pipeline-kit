@@ -17,9 +17,9 @@ Check the implementation against `.ai/design.md`:
 - Are the interfaces (function signatures, endpoints, schemas) as designed?
 - Are there any silent deviations from the design?
 
-### 3. Interview readiness
-- Is the code readable and explainable out loud, line by line?
-- Are there edge cases an interviewer might probe that aren't handled?
+### 3. Code quality
+- Is the code readable and maintainable?
+- Are there edge cases that aren't handled?
 - Is anything unexpectedly complex or hard to justify?
 - Are there any obvious bugs, missing error cases, or untested paths?
 
@@ -33,6 +33,6 @@ Produce a report in this structure:
 
 **Deviations from design** — bullet list (or "none found")
 
-**Interview readiness issues** — bullet list (or "none found")
+**Code quality issues** — bullet list (or "none found")
 
 **Recommendation** — "Ready to `/ship`" or "Fix these issues before shipping: [list]"

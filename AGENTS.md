@@ -22,7 +22,7 @@ Do not skip stages. Do not write code before a technical design exists.
 
 4. **`.ai/design.md` is Gate 2.** The technical design is locked here. Follow it exactly. Surface conflicts rather than silently deviating.
 
-5. **Interview mode.** Every line of code may be read aloud in an interview. Write clearly. No clever tricks. No unnecessary abstractions.
+5. **Code quality.** Write clear, maintainable code. No clever tricks. No unnecessary abstractions.
 
 6. **One stage at a time.** Respect the pipeline. Each stage produces one artifact. Each artifact requires user approval before the next stage begins.
 

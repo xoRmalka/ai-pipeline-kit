@@ -14,7 +14,7 @@ You are in the **IMPLEMENT** stage of the pipeline. Write code that matches the 
 ## Rules
 
 - **Follow `design.md` exactly.** If you discover the design is incomplete or needs to change, surface the conflict and ask for approval before deviating. Never silently change the architecture.
-- **Interview mode.** Write code that is readable and explainable out loud. Avoid clever one-liners. Use clear variable names. Add a comment only when the WHY is non-obvious.
+- **Code quality.** Write clear, maintainable code. Avoid clever one-liners. Use descriptive variable names. Add a comment only when the WHY is non-obvious.
 - **No over-engineering.** Build only what `design.md` specifies. Do not add features, abstractions, or patterns not in the design.
 - **Commit in logical chunks.** After each meaningful piece of working code, commit. Don't accumulate large uncommitted diffs.
 
