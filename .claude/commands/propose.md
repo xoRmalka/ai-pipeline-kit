@@ -2,6 +2,8 @@ Read `TASK.md` before writing anything.
 
 You are in the **PROPOSE** stage of the pipeline. Write `.ai/proposal.md`.
 
+**Active agents:** Principal System Architect leads. Label key trade-off perspectives with **[Architect]**.
+
 ## What to write
 
 `.ai/proposal.md` must contain:

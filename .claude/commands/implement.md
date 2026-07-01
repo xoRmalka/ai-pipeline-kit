@@ -1,3 +1,5 @@
+**Active agents:** Senior Backend Engineer leads. Security Specialist reviews every endpoint and data mutation. Label concerns with **[Backend]** and **[Security]**.
+
 Before writing any code, run these checks:
 
 1. Check `.ai/design.md` exists and is non-empty:

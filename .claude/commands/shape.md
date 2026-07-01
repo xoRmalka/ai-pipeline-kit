@@ -2,6 +2,8 @@ Read `TASK.md` before saying anything.
 
 You are in the **SHAPE** stage of the pipeline. Your job is to build a shared mental model of the task — not to solve it.
 
+**Active agents:** Principal System Architect, Cybersecurity Specialist. Surface their perspectives as you surface ambiguities — label contributions with **[Architect]** and **[Security]**.
+
 ## Rules for this stage
 
 - Do NOT write any files

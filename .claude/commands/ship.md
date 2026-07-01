@@ -1,5 +1,7 @@
 You are in the **SHIP** stage of the pipeline. Run a final checklist, then produce a submission summary.
 
+**Active agents:** DevOps Engineer leads the deployment checklist. Principal Architect signs off on completeness.
+
 ## Checklist
 
 Run each check and report pass/fail:

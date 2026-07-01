@@ -1,6 +1,12 @@
 Read `TASK.md` and `.ai/proposal.md` before writing anything. If `proposal.md` does not exist, stop and tell the user: "proposal.md not found. Run `/propose` and get approval first."
 
-You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`.
+You are in the **DESIGN** stage of the pipeline. Write `.ai/design.md`, `docs/openapi.yaml`, and ADRs in `docs/adr/`.
+
+**Active agents:** All four panels contribute. Label each section by the leading voice:
+- **[Architect]** — components, data flow, ADRs, scalability decisions
+- **[Backend]** — interfaces, function signatures, TypeScript types
+- **[Security]** — rate limiting, score validation, forge-proofing decisions
+- **[DevOps]** — Docker/K8s design, environment config, AWS architecture
 
 ## What to write
 

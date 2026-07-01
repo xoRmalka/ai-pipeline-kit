@@ -2,6 +2,8 @@ Read `.ai/proposal.md`, `.ai/design.md`, and the current codebase before writing
 
 You are in the **REVIEW** stage of the pipeline. Produce a review report in chat. Do not write any files.
 
+**Active agents:** All four panels review from their angle. Structure the report with labeled sections: **[Architect]**, **[Backend]**, **[Security]**, **[DevOps]**.
+
 ## What to check
 
 ### 1. Did we build what we proposed?
